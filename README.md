@@ -188,18 +188,6 @@ Response:
 ### GET /api/history
 Returns last 20 analyses.
 
---
-## Costs
-
-| Service | Free Tier | Paid if you exceed |
-|---------|-----------|--------------------|
-| Gemini 1.5 Flash | 15 req/min, 1M tokens/day | $0.075/1M tokens |
-| SerpAPI | 100 searches/month | $50/month for 5,000 |
-| Railway | $5 free credits/month | $5-20/month |
-| Render | 750 hours/month | $7/month |
-
-For a personal project or demo, **everything stays free**.
-
 ---
 
 ## Troubleshooting
