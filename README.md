@@ -129,23 +129,6 @@ The `index.html` is a single file — host it anywhere:
 npm i -g vercel
 vercel index.html
 ```
-
----
-
-## How It Works
-
-| Step | What Happens |
-|------|-------------|
-| 1 | User pastes URL — frontend detects platform and changes theme |
-| 2 | Frontend calls `POST /api/analyze` on your backend |
-| 3 | Backend scrapes reviews (SerpAPI for Amazon, httpx for others) |
-| 4 | Rule engine runs fast checks: language patterns, timing bursts, rating distribution |
-| 5 | Gemini 1.5 Flash analyzes each review deeply with full context |
-| 6 | Backend returns structured JSON with scores, signals, per-review verdicts |
-| 7 | Frontend renders results with charts, badges, and explanations |
-
----
-
 ## API Reference
 
 ### POST /api/analyze
