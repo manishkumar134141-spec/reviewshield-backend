@@ -188,25 +188,7 @@ Response:
 ### GET /api/history
 Returns last 20 analyses.
 
----
-
-## Platform Support
-
-| Platform | Review Scraping | How |
-|----------|----------------|-----|
-| Amazon 🟠 | ✅ Real reviews | SerpAPI Amazon Reviews engine |
-| Flipkart 🔵 | ✅ Real reviews | httpx + JSON-LD parsing |
-| Meesho 💗 | ✅ Best-effort | httpx + structured data |
-| Myntra 👗 | ✅ Best-effort | httpx + structured data |
-| Snapdeal 🔴 | ✅ Best-effort | httpx + structured data |
-| Nykaa | ✅ Best-effort | httpx + structured data |
-| JioMart | ✅ Best-effort | httpx + structured data |
-
-> **Note:** Amazon gives the most reliable results via SerpAPI.
-> Other platforms depend on their page structure not changing.
-
----
-
+--
 ## Costs
 
 | Service | Free Tier | Paid if you exceed |
